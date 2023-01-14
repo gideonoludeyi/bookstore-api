@@ -1,10 +1,30 @@
 # Bookstore API
 
-## Getting Started
+## Getting Started (glitch.com)
+
+Click [here](https://glitch.com/edit/#!/quaint-cactus-comfort) or go to https://glitch.com/edit/#!/quaint-cactus-comfort
+
+## Getting Started (Local)
 
 ### Install package dependencies
 
-Skip this if using Glitch.com
+Ensure [`python`](https://www.python.org) and `pip` are installed, and run the following command in the terminal.
+
+**MacOS / Linux**
+
+```sh
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+**Windows**
+
+```sh
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+```
 
 ### Start API server (hot-reload)
 
