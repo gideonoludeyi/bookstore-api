@@ -12,3 +12,16 @@ def get_user(user_id: int):
 
 
 # [ ] Register a user account
+class CreateUserInput(BaseModel):
+    name: str
+    email: str
+
+
+@router.post('/', response_model=User)
+def create_user(input: CreateUserInput):
+    user = User(
+        name=input.name,
+        email=input.email,
+    )
+    user_service.save(user)
+    return user
