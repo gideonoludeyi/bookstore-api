@@ -4,6 +4,8 @@
 
 Click [here](https://glitch.com/edit/#!/quaint-cactus-comfort) or go to https://glitch.com/edit/#!/quaint-cactus-comfort
 
+Remix the project (registration is optional)
+
 ### Start API server (hot-reload)
 
 Open up the terminal on the glitch project and run the following command.
