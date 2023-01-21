@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "build": "slidev build --base=/bookstore-api/",
+    "build:dev": "slidev build --base=./",
     "dev": "slidev --open",
     "export": "slidev export"
   },
