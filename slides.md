@@ -39,3 +39,7 @@ src: ./pages/api-examples.md
 ---
 src: ./pages/development.md
 ---
+
+---
+src: ./pages/http-playground.md
+---
