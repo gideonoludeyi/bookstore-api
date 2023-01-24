@@ -1,8 +1,7 @@
 # Bookstore API
 
 ## Getting Started (glitch.com)
-
-Click [here](https://glitch.com/edit/#!/quaint-cactus-comfort) or go to https://glitch.com/edit/#!/quaint-cactus-comfort
+Click [here](https://glitch.com/edit/#!/adorable-juvenile-walleye) or go to https://glitch.com/edit/#!/adorable-juvenile-walleye
 
 Remix the project (registration is optional)
 
