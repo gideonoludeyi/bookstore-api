@@ -11,7 +11,7 @@ def get_rentals():
     return rental_service.find_all()
 
 
-# [ ] Rent a book from the bookstore
+# [x] Rent a book from the bookstore
 class CreateRentalInput(BaseModel):
     user_id: int
     book_id: int
@@ -51,7 +51,7 @@ def create_rental(input: CreateRentalInput):
     return rental
 
 
-# [ ] Return a book rental back to the bookstore
+# [x] Return a book rental back to the bookstore
 @router.delete('/{rental_id}', response_model=bool)
 def delete_rental(rental_id: int):
     rental = rental_service.find(rental_id)

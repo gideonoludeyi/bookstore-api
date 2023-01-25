@@ -11,7 +11,7 @@ def get_user(user_id: int):
     return user_service.find(user_id)
 
 
-# [ ] Register a user account
+# [x] Register a user account
 class CreateUserInput(BaseModel):
     name: str
     email: str

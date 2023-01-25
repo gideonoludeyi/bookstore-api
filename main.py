@@ -9,8 +9,9 @@ app = FastAPI()
 
 
 @app.get("/")
-async def root():
+def root():
     return {"name": "Bookstore API"}
+
 
 app.include_router(books_router)
 app.include_router(authors_router)
