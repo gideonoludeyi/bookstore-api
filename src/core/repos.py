@@ -1,4 +1,4 @@
-from typing import Generic, TypeVar, Union
+from typing import Generic, TypeVar, Union, List
 
 from .models import Author, Book, Rental, User
 
@@ -6,10 +6,10 @@ T = TypeVar('T')
 
 
 class BaseService(Generic[T]):
-    def __init__(self, items: Union[list[T], None] = None) -> None:
+    def __init__(self, items: Union[List[T], None] = None) -> None:
         self.items = items if items is not None else []
 
-    def find_all(self) -> list[T]:
+    def find_all(self) -> List[T]:
         return self.items
 
     def find(self, id: int) -> Union[T, None]:
@@ -44,7 +44,7 @@ class BookService(BaseService[Book]):
         ]
         return next(iter(result), None)
 
-    def find_for_author(self, author_id: int) -> list[Book]:
+    def find_for_author(self, author_id: int) -> List[Book]:
         return [
             book
             for book in self.find_all()
