@@ -1,3 +1,4 @@
+from typing import Union
 from datetime import date
 from random import randint
 
@@ -24,7 +25,7 @@ class Book(BaseModel):
     author_id: int
     title: str
     available_copies: int = 0
-    published_at: date | None
+    published_at: Union[date, None]
 
 
 class Rental(BaseModel):
