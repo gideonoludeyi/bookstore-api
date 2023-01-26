@@ -11,8 +11,6 @@ router = APIRouter(prefix='/books', tags=['books'])
 
 # [ ] Retrieve all books in the bookstore
 
-# [ ] Retrieve all books published by a specific author
-
 # [ ] Retrieve a single book
 
 # [ ] Add a book to the bookstore
