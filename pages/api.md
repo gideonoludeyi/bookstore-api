@@ -6,9 +6,12 @@ theme: seriph
 
 Application Programming Interface
 
-- Communication between applications
+- Enables application-to-application interaction
 - Integration with existing applications
-- Reusability
+  - Discord Bots
+  - Payment API in Online stores
+  - Discord + Spotify Integration
+
 
 <style>
 h1 {

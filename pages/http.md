@@ -37,7 +37,7 @@ Both the client and the server are applications connected to the web.
 theme: seriph
 ---
 
-# HTTP URL
+# HTTP Request URL
 
 - _Scheme_ - the type of web address
 - _Domain_ - a human-readable identifier for the web server
@@ -55,7 +55,7 @@ theme: seriph
       <p class="scheme">scheme</p>
     </div>
     <div style="display: inline-block">
-      <p class="domain">jsonplaceholder.typicode.com</p>
+      <p class="domain">brockcsc.ca</p>
       <p class="domain">domain</p>
     </div>
     <div style="display: inline-block">
