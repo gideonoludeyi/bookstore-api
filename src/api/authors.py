@@ -1,3 +1,5 @@
+from typing import Union
+
 from fastapi import APIRouter
 from pydantic import BaseModel
 
@@ -7,7 +9,7 @@ router = APIRouter(prefix='/authors', tags=['authors'])
 
 
 # [x] Retrieve an author’s information
-@router.get('/{author_id}', response_model=Author | None)
+@router.get('/{author_id}', response_model=Union[Author, None])
 def get_author(author_id: int):
     return author_service.find(author_id)
 

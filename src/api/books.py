@@ -1,4 +1,5 @@
 from datetime import date
+from typing import Union
 
 from fastapi import APIRouter
 from pydantic import BaseModel
@@ -11,14 +12,14 @@ router = APIRouter(prefix='/books', tags=['books'])
 # [x] Retrieve all books in the bookstore
 # [x] Retrieve all books published by a specific author
 @router.get('/')
-def get_books(author_id: int | None = None):
+def get_books(author_id: Union[int, None] = None):
     if author_id is not None:
         return book_service.find_for_author(author_id)
     return book_service.find_all()
 
 
 # [x] Retrieve a single book
-@router.get('/{book_id}', response_model=Book | None)
+@router.get('/{book_id}', response_model=Union[Book, None])
 def get_book(book_id: int):
     return book_service.find(book_id)
 
@@ -53,12 +54,12 @@ def create_book(input: CreateBookInput):
 
 # [x] Update book information
 class UpdateBookInput(BaseModel):
-    title: str | None = None
-    available_copies: int | None = None
-    published_at: date | None = None
+    title: Union[str, None] = None
+    available_copies: Union[int, None] = None
+    published_at: Union[date, None] = None
 
 
-@router.patch('/{book_id}', response_model=Book | None)
+@router.patch('/{book_id}', response_model=Union[Book, None])
 def update_book(book_id: int, input: UpdateBookInput):
     book = book_service.find(book_id)
     if book is None:
