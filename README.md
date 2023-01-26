@@ -1,7 +1,7 @@
 # Bookstore API
 
 ## Getting Started (glitch.com)
-Click [here](https://glitch.com/edit/#!/lake-tan-run) or go to https://glitch.com/edit/#!/lake-tan-run
+Click [here](https://glitch.com/edit/#!/bookstore-api) or go to https://glitch.com/edit/#!/bookstore-api
 
 Remix the project (registration is optional)
 
