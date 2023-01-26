@@ -4,10 +4,11 @@ src: ./pages/cover.md
 
 ---
 
-# Overview
+# Outline
 
-- What is a RESTful API?
-- How does HTTP work?
+- What is an API?
+- What is HTTP?
+- Characteristics of RESTful APIs
 - Examples of RESTful APIs
 - Designing our custom API
 - Conclusion
@@ -25,11 +26,15 @@ h1 {
 </style>
 
 ---
-src: ./pages/restful-api.md
+src: ./pages/api.md
 ---
 
 ---
 src: ./pages/http.md
+---
+
+---
+src: ./pages/restful-api.md
 ---
 
 ---
@@ -41,5 +46,5 @@ src: ./pages/development.md
 ---
 
 ---
-src: ./pages/http-playground.md
+src: ./pages/citations.md
 ---

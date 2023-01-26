@@ -3,11 +3,13 @@ theme: seriph
 ---
 
 # API Examples
+
 1. [Discord API](https://discord.com/developers/docs/reference)
 2. [Google Docs API](https://developers.google.com/docs/api/reference/rest/)
 3. [YuGiOh Card Game API](https://ygoprodeck.com/api-guide/)
 4. [Goodreads API](https://www.goodreads.com/api)
 5. [Twitter API](https://developer.twitter.com/en/docs/twitter-api)
+6. [Stripe API](https://stripe.com/docs/api)
 
 <style>
 h1 {
