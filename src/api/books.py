@@ -10,11 +10,8 @@ router = APIRouter(prefix='/books', tags=['books'])
 
 
 # [x] Retrieve all books in the bookstore
-# [x] Retrieve all books published by a specific author
 @router.get('/')
-def get_books(author_id: Union[int, None] = None):
-    if author_id is not None:
-        return book_service.find_for_author(author_id)
+def get_books():
     return book_service.find_all()
 
 

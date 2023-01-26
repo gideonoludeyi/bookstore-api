@@ -1,9 +1,9 @@
-from typing import Union
+from typing import Union, List
 
 from fastapi import APIRouter
 from pydantic import BaseModel
 
-from ..core import Author, author_service
+from ..core import Author, Book, author_service, book_service
 
 router = APIRouter(prefix='/authors', tags=['authors'])
 
@@ -35,3 +35,8 @@ def delete_author(author_id: int):
 
     author_service.remove(author_id)
     return True
+
+# [x] Retrieve all books published by a specific author
+@router.get('/{author_id}/books', response_model=List[Book])
+def get_books_by_author(author_id: int):
+    return book_service.find_for_author(author_id)
