@@ -1,3 +1,4 @@
+from typing import Union
 from datetime import date
 from random import randint
 from typing import Union
