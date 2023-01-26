@@ -1,7 +1,7 @@
 # Bookstore API
 
 ## Getting Started (glitch.com)
-Click [here](https://glitch.com/edit/#!/adorable-juvenile-walleye) or go to https://glitch.com/edit/#!/adorable-juvenile-walleye
+Click [here](https://glitch.com/edit/#!/lake-tan-run) or go to https://glitch.com/edit/#!/lake-tan-run
 
 Remix the project (registration is optional)
 
