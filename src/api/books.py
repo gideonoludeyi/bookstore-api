@@ -1,4 +1,5 @@
 from datetime import date
+from typing import Union
 
 from fastapi import APIRouter
 from pydantic import BaseModel
