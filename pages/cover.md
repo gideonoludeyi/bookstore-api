@@ -34,10 +34,15 @@ BrockCSC Workshop
   </span>
 </div>
 
-<div class="abs-br m-6 flex gap-2">
+<div class="abs-br m-6 flex gap-2 items-center">
+  <p class="text-xs opacity-50 !border-none !hover:text-white">@gideonoludeyi</p>
   <a href="https://github.com/BrockCSC/" target="_blank" alt="GitHub"
     class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
+  </a>
+  <a href="https://linkedin.com/in/gideonoludeyi/" target="_blank" alt="LinkedIn"
+    class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
+    <carbon-logo-linkedin />
   </a>
 </div>
 
